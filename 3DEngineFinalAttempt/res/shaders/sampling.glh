@@ -1,0 +1,85 @@
+
+
+vec4 sampleTexture(sampler2D diffuse, vec2 texCoords)
+{
+	return texture(diffuse, vec2(texCoords.x, -texCoords.y));
+	//return vec4(texture(diffuse, vec2(texCoords.x, -texCoords.y)).xyz, 1);
+}
+
+vec4 sampleDiffuseBlend(sampler2D diffuse1, sampler2D diffuse2, vec2 texCoords, float blendAmount)
+{
+	vec3 col1 = texture(diffuse1, texCoords.xy).xyz * blendAmount;
+	vec3 col2 = texture(diffuse2, texCoords.xy).xyz * (1 - blendAmount);
+	return vec4(col1 + col2, 1);
+}
+
+vec4 sampleBlendedNormal(sampler2D diffuse1, sampler2D diffuse2, vec2 texCoords, vec3 normal)
+{
+	float blend = max(0, min(1, (normal.y - 0.1) * 4));
+	return sampleDiffuseBlend(diffuse1, diffuse2, texCoords, blend);
+}
+
+vec2 calcParallaxTexCoords(sampler2D dispMap, mat3 tbnMatrix, vec3 directionToEye, vec2 texCoords, float scale, float bias)
+{
+	return texCoords.xy + (directionToEye * tbnMatrix).xy * (sampleTexture(dispMap, texCoords.xy).r * scale + bias);
+}
+
+float sampleShadowMap(sampler2D shadowMap, vec2 coords, float compare)
+{
+	return step(compare, texture(shadowMap, coords.xy).r);
+}
+
+float sampleShadowMapLinear(sampler2D shadowMap, vec2 coords, float compare, vec2 texelSize)
+{
+	vec2 pixelPos = coords/texelSize + vec2(0.5);
+	vec2 fracPart = fract(pixelPos);
+	vec2 startTexel = (pixelPos - fracPart) * texelSize;
+	
+	float blTexel = sampleShadowMap(shadowMap, startTexel, compare);
+	float brTexel = sampleShadowMap(shadowMap, startTexel + vec2(texelSize.x, 0.0), compare);
+	float tlTexel = sampleShadowMap(shadowMap, startTexel + vec2(0.0, texelSize.y), compare);
+	float trTexel = sampleShadowMap(shadowMap, startTexel + texelSize, compare);
+	
+	float mixA = mix(blTexel, tlTexel, fracPart.y);
+	float mixB = mix(brTexel, trTexel, fracPart.y);
+	
+	return mix(mixA, mixB, fracPart.x);
+}
+
+// PCF (Percentage Closest Filtering)
+float sampleShadowMapPCF(sampler2D shadowMap, vec2 coords, float compare, vec2 texelSize)
+{
+	const float NUM_SAMPLES = 3.0f;
+	const float SAMPLES_START = (NUM_SAMPLES-1.0f)/2.0f;
+	const float NUM_SAMPLES_SQUARED = NUM_SAMPLES*NUM_SAMPLES;
+
+	float result = 0.0f;
+	for(float y = -SAMPLES_START; y <= SAMPLES_START; y += 1.0f)
+	{
+		for(float x = -SAMPLES_START; x <= SAMPLES_START; x += 1.0f)
+		{
+			vec2 coordsOffset = vec2(x,y)*texelSize;
+			result += sampleShadowMapLinear(shadowMap, coords + coordsOffset, compare, texelSize);
+		}
+	}
+	return result/NUM_SAMPLES_SQUARED;
+}
+
+float linstep(float low, float high, float value)
+{
+	// Linear interpolation
+	return clamp((value - low) / (high - low), 0.0, 1.0);
+}
+
+float sampleVarianceShadowMap(sampler2D shadowMap, vec2 coords, float compare, float minVariance, float lightBleedReductionAmount)
+{
+	vec2 moments   = texture(shadowMap, coords.xy).xy;
+	float p        = step(compare, moments.x);
+	float variance = max(moments.y - (moments.x * moments.x), minVariance);
+	
+	float d    = compare - moments.x;
+	float pMax = linstep(lightBleedReductionAmount, 1.0, variance / (variance + (d * d)));
+	
+	return min(max(p, pMax), 1.0);
+}
+

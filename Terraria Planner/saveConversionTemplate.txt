@@ -1,0 +1,494 @@
+1
+Torch
+2
+Blue Torch
+3
+Red Torch
+4
+Green Torch
+5
+Purple Torch
+6
+White Torch
+7
+Yellow Torch
+8
+Demon Torch
+9
+Cursed Torch
+10
+Wooden Door Closed
+11
+Wooden Door Open
+12
+Bottle
+13
+Healing Potion
+14
+Mana Potion
+15
+Pink Vase
+16
+Mug
+17
+Wooden Table
+18
+Wooden Chair
+19
+Toilet
+20
+Iron Anvil
+21
+Furnace
+22
+Hellforge
+23
+Work Bench
+24
+Wood Platform
+25
+Acorn
+26
+Chest
+27
+Gold Chest
+28
+Shadow Chest
+29
+Barrel
+30
+Trash Can
+31
+Locked Gold Chest
+32
+Locked Shadow Chest
+33
+Sunflower
+34
+Pot
+35
+Piggy Bank
+36
+Candle
+37
+Water Candle
+38
+Copper Chandelier
+39
+Silver Chandelier
+40
+Gold Chandelier
+41
+Book
+42
+Sign
+43
+Clay Pot
+44
+Bed
+45
+Tombstone
+46
+Loom
+47
+Piano
+48
+Dresser
+49
+Bench
+50
+Bathtub
+51
+Red Banner
+52
+Green Banner
+53
+Blue Banner
+54
+Yellow Banner
+55
+Lamp Post
+56
+Tiki Torch
+57
+Keg
+58
+Chinese Lantern
+59
+Cooking Pot
+60
+Safe
+61
+Skull Lantern
+62
+Candelabra
+63
+Bookcase
+64
+Throne
+65
+Bowl
+66
+Grandfather Clock
+67
+Sawmill
+68
+Chain Lantern
+69
+Mushroom
+70
+Vile Mushroom
+71
+Glowing Mushroom
+72
+Life Crystal
+73
+Daybloom
+74
+Moonglow
+75
+Blinkroot
+76
+Deathweed
+77
+Waterleaf
+78
+Fireblossom
+79
+Short Weeds
+80
+Tall Weeds
+81
+Demon Altar
+82
+Shadow Orb
+83
+Corrupt Weeds
+84
+Short Jungle Weeds
+85
+Nature's Gift
+86
+Jungle Spores
+87
+Tall Jungle Weeds
+88
+Water Bolt
+89
+Coral
+90
+Tinkerer's Workshop
+91
+Crystal Ball
+92
+Disco Ball
+93
+Mannequin
+94
+Crystal Shard
+95
+Lever
+96
+Adamantite Forge
+97
+Mythril Anvil
+98
+Red Pressure Plate
+99
+Green Pressure Plate
+100
+Gray Pressure Plate
+101
+Brown Pressure Plate
+102
+Switch
+103
+Dart Trap
+104
+Boulder
+105
+Explosives
+106
+Inlet Pump
+107
+Outlet Pump
+108
+1 Second Timer
+109
+3 Second Timer
+110
+5 Second Timer
+111
+Blue Light
+112
+Red Light
+113
+Green Light
+114
+Armor Statue
+115
+Angel Statue
+116
+Star Statue
+117
+Sword Statue
+118
+Slime Statue
+119
+Goblin Statue
+120
+Shield Statue
+121
+Bat Statue
+122
+Fish Statue
+123
+Bunny Statue
+124
+Skeleton Statue
+125
+Reaper Statue
+126
+Woman Statue
+127
+Imp Statue
+128
+Gargoyle Statue
+129
+Gloom Statue
+130
+Hornet Statue
+131
+Bomb Statue
+132
+Crab Statue
+133
+Hammer Statue
+134
+Potion Statue
+135
+Spear Statue
+136
+Cross Statue
+137
+Jellyfish Statue
+138
+Bow Statue
+139
+Boomerang Statue
+140
+Boot Statue
+141
+Chest Statue
+142
+Bird Statue
+143
+Axe Statue
+144
+Corrupt Statue
+145
+Tree Statue
+146
+Anvil Statue
+147
+Picaxe Statue
+148
+Mushroom Statue
+149
+Eyeball Statue
+150
+Pillar Statue
+151
+Heart Statue
+152
+Pot Statue
+153
+Sunflower Statue
+154
+King Statue
+155
+Queen Statue
+156
+Piranha Statue
+157
+Stone Block
+158
+Sand Block
+159
+Clay Block
+160
+Copper Ore
+161
+Iron Ore
+162
+Silver Ore
+163
+Gold Ore
+164
+Ebonstone Block
+165
+Demonite Ore
+166
+Meteorite
+167
+Obsidian
+168
+Sapphire
+169
+Ruby
+170
+Emerald
+171
+Topaz
+172
+Amethyst
+173
+Diamond
+174
+Wood
+175
+Gray Brick
+176
+Red Brick
+177
+Blue Brick
+178
+Green Brick
+179
+Pink Brick
+180
+Gold Brick
+181
+Silver Brick
+182
+Copper Brick
+183
+Obsidian Brick
+184
+Hellstone Brick
+185
+Pearlstone Brick
+186
+Iridescent Brick
+187
+Mudstone Block
+188
+Cobalt Brick
+189
+Mythril Brick
+190
+Demonite Brick
+191
+Cobalt Ore
+192
+Mythril Ore
+193
+Adamantite Ore
+194
+Ebonsand Block
+195
+Pearlsand Block
+196
+Pearlstone Block
+197
+Silt Block
+198
+Active Stone Block
+199
+Inactive Stone Block
+200
+Candy Cane Block
+201
+Green Candy Cane Block
+202
+Snow Block
+203
+Snow Brick
+204
+Hellstone
+205
+Dirt Block
+206
+Mud Block
+207
+Ash Block
+208
+Grass
+209
+Corrupt Grass
+210
+Hallowed Grass
+211
+Jungle Grass
+212
+Mushroom Grass
+213
+Spikes
+214
+Cobweb
+215
+Vines
+216
+Glass
+217
+Corrupt Thorns
+218
+Jungle Thorns
+219
+Jungle Vines
+220
+Hallowed Vines
+221
+Wooden Beam
+222
+Stone Wall
+223
+Dirt Wall
+224
+Wood Wall
+225
+Gray Brick Wall
+226
+Red Brick Wall
+227
+Blue Brick Wall
+228
+Green Brick Wall
+229
+Pink Brick Wall
+230
+Gold Brick Wall
+231
+Silver Brick Wall
+232
+Copper Brick Wall
+233
+Hellstone Brick Wall
+234
+Obsidian Brick Wall
+235
+Mud Wall
+236
+Ebonstone Wall
+237
+Glass Wall
+238
+Pearlstone Brick Wall
+239
+Iridescent Brick Wall
+240
+Mudstone Brick Wall
+241
+Cobalt Brick Wall
+242
+Mythril Brick Wall
+243
+Planked Wall
+244
+Pearlstone Wall
+245
+Candy Cane Wall
+246
+Green Candy Cane Wall
+247
+Snow Brick Wall

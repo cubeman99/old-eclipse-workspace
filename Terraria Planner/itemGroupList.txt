@@ -1,0 +1,349 @@
+:Lighting
+Torch
+Candle
+Water Candle
+Gold Chandelier
+Silver Chandelier
+Copper Chandelier
+Candelabra
+Chain Lantern
+Lamp Post
+Tiki Torch
+Chinese Lantern
+Disco Ball
+Skull Lantern
+Red Torch
+Yellow Torch
+Green Torch
+Blue Torch
+Purple Torch
+White Torch
+Demon Torch
+Cursed Torch
+Red Light
+Green Light
+Blue Light
+
+:Furniture
+Wooden Door Closed
+Wooden Door Open
+Wooden Chair
+Wooden Table
+Sign
+Work Bench
+Furnace
+Hellforge
+Adamantite Forge
+Iron Anvil
+Mythril Anvil
+Chest
+Gold Chest
+Shadow Chest
+Barrel
+Trash Can
+Safe
+Bed
+Crystal Ball
+Sawmill
+Tinkerer's Workshop
+Loom
+Keg
+Cooking Pot
+Bench
+Dresser
+Bookcase
+Piano
+Grandfather Clock
+Toilet
+Bathtub
+Throne
+Mannequin
+Tombstone
+Locked Gold Chest
+Locked Shadow Chest
+
+:Nature
+Grass
+Acorn
+Sunflower
+Mushroom
+Glowing Mushroom
+Vile Mushroom
+Blinkroot
+Daybloom
+Moonglow
+Deathweed
+Waterleaf
+Fireblossom
+Short Weeds
+Tall Weeds
+Vines
+
+:Ores and Gems
+Copper Ore
+Iron Ore
+Silver Ore
+Gold Ore
+Obsidian
+Demonite Ore
+Meteorite
+Hellstone
+Cobalt Ore
+Mythril Ore
+Adamantite Ore
+Amethyst
+Topaz
+Sapphire
+Emerald
+Ruby
+Diamond
+
+:Blocks
+Wood
+Glass
+Grass
+Corrupt Grass
+Hallowed Grass
+Jungle Grass
+Mushroom Grass
+Dirt Block
+Stone Block
+Mud Block
+Clay Block
+Ash Block
+Sand Block
+Silt Block
+Pearlsand Block
+Ebonsand Block
+Pearlstone Block
+Ebonstone Block
+Snow Block
+Spikes
+Cobweb
+
+:Bricks
+Gray Brick
+Red Brick
+Mudstone Block
+Pearlstone Brick
+Iridescent Brick
+Demonite Brick
+Copper Brick
+Silver Brick
+Gold Brick
+Obsidian Brick
+Hellstone Brick
+Cobalt Brick
+Mythril Brick
+Blue Brick
+Green Brick
+Pink Brick
+Snow Brick
+Candy Cane Block
+Green Candy Cane Block
+
+:Walls
+Dirt Wall
+Stone Wall
+Wood Wall
+Planked Wall
+Glass Wall
+Gray Brick Wall
+Red Brick Wall
+Mudstone Brick Wall
+Pearlstone Brick Wall
+Iridescent Brick Wall
+Copper Brick Wall
+Silver Brick Wall
+Gold Brick Wall
+Obsidian Brick Wall
+Cobalt Brick Wall
+Mythril Brick Wall
+Blue Brick Wall
+Green Brick Wall
+Pink Brick Wall
+Snow Brick Wall
+Candy Cane Wall
+Green Candy Cane Wall
+Mud Wall
+Pearlstone Wall
+Ebonstone Wall
+Hellstone Brick Wall
+
+:Miscellaneous
+Water
+Lava
+Wood Platform
+Wooden Beam
+Book
+Bottle
+Pink Vase
+Mug
+Bowl
+Clay Pot
+Piggy Bank
+Red Banner
+Blue Banner
+Green Banner
+Yellow Banner
+Coral
+Crystal Shard
+Pot
+Life Crystal
+Healing Potion
+Mana Potion
+Water Bolt
+Nature's Gift
+Demon Altar
+Shadow Orb
+
+:The Corruption
+Corrupt Grass
+Dirt Block
+Ebonstone Block
+Ebonsand Block
+Ebonstone Wall
+Vile Mushroom
+Corrupt Thorns
+Corrupt Weeds
+Deathweed
+Demon Altar
+Shadow Orb
+
+:Jungle
+Jungle Grass
+Mud Block
+Mud Wall
+Jungle Vines
+Short Jungle Weeds
+Tall Jungle Weeds
+Jungle Spores
+Nature's Gift
+Jungle Thorns
+Moonglow
+Gold Chest
+Torch
+Gold Brick
+Gold Brick Wall
+
+:The Underworld
+Lava
+Ash Block
+Hellstone
+Hellstone Brick
+Hellstone Brick Wall
+Obsidian Brick
+Obsidian Brick Wall
+Hellforge
+Fireblossom
+Demon Torch
+Wood Platform
+Shadow Chest
+Locked Shadow Chest
+
+:Dungeon
+Blue Brick
+Green Brick
+Pink Brick
+Blue Brick Wall
+Green Brick Wall
+Pink Brick Wall
+Spikes
+Book
+Water Bolt
+Chain Lantern
+Water Candle
+Wood Platform
+Wooden Door Closed
+Wooden Door Open
+Gold Chest
+Locked Gold Chest
+
+:The Hallowed
+Hallowed Grass
+Dirt Block
+Pearlstone Block
+Pearlsand Block
+Hallowed Vines
+Short Hallowed Weeds
+Tall Hallowed Weeds
+Pearlstone Brick
+Pearlstone Wall
+Pearlstone Brick Wall
+Crystal Shard
+
+:Mechanisms
+Wire
+Lever
+Red Pressure Plate
+Green Pressure Plate
+Gray Pressure Plate
+Brown Pressure Plate
+Switch
+Dart Trap
+Boulder
+Explosives
+Inlet Pump
+Outlet Pump
+1 Second Timer
+3 Second Timer
+5 Second Timer
+Active Stone Block
+Inactive Stone Block
+
+:Statues
+Armor Statue
+Angel Statue
+Star Statue
+Sword Statue
+Slime Statue
+Goblin Statue
+Shield Statue
+Bat Statue
+Fish Statue
+Bunny Statue
+Skeleton Statue
+Reaper Statue
+Woman Statue
+Imp Statue
+Gargoyle Statue
+Gloom Statue
+Hornet Statue
+Bomb Statue
+Crab Statue
+Hammer Statue
+Potion Statue
+Spear Statue
+Cross Statue
+Jellyfish Statue
+Bow Statue
+Boomerang Statue
+Boot Statue
+Chest Statue
+Bird Statue
+Axe Statue
+Corrupt Statue
+Tree Statue
+Anvil Statue
+Picaxe Statue
+Mushroom Statue
+Eyeball Statue
+Pillar Statue
+Heart Statue
+Pot Statue
+Sunflower Statue
+King Statue
+Queen Statue
+Piranha Statue
+
+:Holiday
+Candy Cane Block
+Green Candy Cane Block
+Snow Block
+Snow Brick
+Red Light
+Green Light
+Blue Light
+Candy Cane Wall
+Green Candy Cane Wall
+Snow Brick Wall

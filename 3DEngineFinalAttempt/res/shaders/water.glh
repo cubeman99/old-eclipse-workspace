@@ -1,0 +1,8 @@
+
+struct Wave
+{
+	float frequency;
+	float amplitude;
+	float phaseTime;
+	vec2 direction;
+};
